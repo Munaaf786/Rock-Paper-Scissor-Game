@@ -1,6 +1,6 @@
-In this project, let's build a **Rock Paper Scissors** by applying the concepts we have learned till now.
+In this project, I've built a **Rock Paper Scissors** by applying the concepts I have learned till now.
 
-### Refer to the image below:
+### Output is as per the image below:
 
 <br/>
 <div style="text-align: center;">
@@ -32,13 +32,13 @@ In this project, let's build a **Rock Paper Scissors** by applying the concepts 
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- When you click on the **Rules** button, it should trigger a popup, and rules image should be displayed
-- Initially, the score displayed should be `0`
+- When you click on the **Rules** button, it triggers a popup, and rules image is displayed
+- Initially, the score displayed is `0`
 - The App is provided with `choicesList`. It consists of a list of choice objects with the following properties in each choice object
 
   |   Key    | Data Type |
@@ -46,11 +46,11 @@ The app must have the following functionalities
   |    id    |  String   |
   | imageUrl |  String   |
 
-- When any of the three buttons (i.e Rock, Paper, Scissors) is clicked, then the [Game Results View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-game-results-output.png) should be displayed
-- In the Game Results View, the opponent choice should be generated randomly among these three buttons (i.e Rock, Paper, Scissors)
-- When the **Rock** button is clicked, then the rock image should be displayed as your choice in the Game Results View
-- When the **Paper** button is clicked, then the paper image should be displayed as your choice in the Game Results View
-- When the **Scissors** button is clicked, then the scissors image should be displayed as your choice in the Game Results View
+- When any of the three buttons (i.e Rock, Paper, Scissors) is clicked, then the [Game Results View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-game-results-output.png) is displayed
+- In the Game Results View, the opponent choice is generated randomly among these three buttons (i.e Rock, Paper, Scissors)
+- When the **Rock** button is clicked, then the rock image is displayed as your choice in the Game Results View
+- When the **Paper** button is clicked, then the paper image is displayed as your choice in the Game Results View
+- When the **Scissors** button is clicked, then the scissors image is displayed as your choice in the Game Results View
 
   #### Game Rules
 
@@ -72,10 +72,10 @@ The app must have the following functionalities
 
     </details>
 
-- When the result is `YOU WON`, then the score should be incremented by one
-- When the result is `IT IS DRAW`, then there shouldn't be any change in the score
-- When the result is `YOU LOSE`, then the score should be decremented by one
-- When the **PLAY AGAIN** button is clicked, then the [Playing View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-playing-output.png) should be displayed
+- When the result is `YOU WON`, then the score is incremented by one
+- When the result is `IT IS DRAW`, then there isn't any change in the score
+- When the result is `YOU LOSE`, then the score is decremented by one
+- When the **PLAY AGAIN** button is clicked, then the [Playing View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-playing-output.png) is displayed
 
 </details>
 
@@ -106,10 +106,10 @@ The app must have the following functionalities
 
 <br/>
 
-- You can use **reactjs-popup** for displaying the modal
-- `RiCloseLine` icon from `react icons` can be used for the **close** button at `React Popup`
+- The **reactjs-popup** is used for displaying the modal
+- `RiCloseLine` icon from `react icons` is used for the **close** button at `React Popup`
 
-**The following instructions are required for the tests to pass**
+**The following instructions were required for the tests to pass**
 
 - **Styled Components** should be used for styling purposes
 - The Page should consist of three HTML button elements with `data-testid` attribute values as **rockButton**, **scissorsButton** and **paperButton** respectively
@@ -124,7 +124,7 @@ The app must have the following functionalities
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png](https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png) alt should be **rules**
+- [https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png](https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png) alt is **rules**
 
 </details>
 
@@ -146,9 +146,9 @@ The app must have the following functionalities
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+### **Conclusion**
+
+- Thanks for checking out my Rock Paper Scissors game! 🎮 This project highlights my skills in **React JS** and **Styled Components**, featuring interactive gameplay, score tracking, and responsive design. It was a fun and engaging way to apply React fundamentals and build a complete user experience.
+
+Happy coding! ✨
+
